@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="500dp"
+    android:layout_height="800dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -32,6 +32,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
         android:background="@color/colorAccent"
         android:text="PSG" />
 
@@ -43,8 +45,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="292dp"
-        android:layout_height="316dp"
+        android:layout_width="173dp"
+        android:layout_height="247dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="40dp"
         app:srcCompat="@drawable/figur1" />
