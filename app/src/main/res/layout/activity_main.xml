@@ -48,4 +48,13 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="40dp"
         app:srcCompat="@drawable/figur1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:text="Hejaaaaa!" />
 </LinearLayout>
