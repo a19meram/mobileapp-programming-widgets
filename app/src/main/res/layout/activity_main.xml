@@ -11,25 +11,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:layout_margin="10dp"
+        android:layout_margin="3dp"
         android:text="FC Barcelona" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:layout_margin="10dp"
+        android:layout_margin="3dp"
         android:text="Real Madrid" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:layout_margin="10dp"
+        android:layout_margin="3dp"
         android:text="Liverpool FC" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:layout_margin="10dp"
+        android:layout_margin="3dp"
         android:text="PSG" />
+
+    <EditText
+        android:id="@+id/myNewEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favorit lag"
+
+        />
 </LinearLayout>
