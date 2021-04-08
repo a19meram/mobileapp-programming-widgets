@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
         android:layout_margin="3dp"
+        android:background="@color/colorAccent"
         android:text="FC Barcelona" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
         android:layout_margin="3dp"
+        android:background="@color/colorAccent"
         android:text="Real Madrid" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
         android:layout_margin="3dp"
+        android:background="@color/colorAccent"
         android:text="Liverpool FC" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
         android:layout_margin="3dp"
+        android:background="@color/colorAccent"
         android:text="PSG" />
 
     <EditText
         android:id="@+id/myNewEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Favorit lag"
+        android:hint="Favorit lag" />
 
-        />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="292dp"
+        android:layout_height="316dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/figur1" />
 </LinearLayout>
