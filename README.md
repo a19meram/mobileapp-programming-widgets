@@ -25,12 +25,12 @@ resultatet enligt figur 1 och sedan har vi ImageView och Button där dessa två 
                 android:hint="Favorit lag" />
 
         <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="173dp"
-                        android:layout_height="247dp"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="40dp"
-                        app:srcCompat="@drawable/figur1" />
+                 android:id="@+id/imageView5"
+                 android:layout_width="173dp"
+                 android:layout_height="247dp"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginTop="40dp"
+                 app:srcCompat="@drawable/figur1" />
 
         <Button
                  android:id="@+id/button"
