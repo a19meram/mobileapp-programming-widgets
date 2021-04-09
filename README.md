@@ -3,37 +3,49 @@
 
 **Skriv din rapport här!**
 
-_Du kan ta bort all text som finns sedan tidigare_.
-
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
-
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
+I den här dugga skulle man följa olika steg för att kunna öva sig på hur man lägger till en layout.
+Sedan ska man lägga till en knapp, EditText och en Imageview inuti layouten som man har valt att använda.
+För att lösa layout kraven var man tvungen att implementera olika instruktioner på hur layout utseendet ska illustreras med hjälp av layout_width och height på canvasen av mobilen
+sedan använder man sig av orientationen för att bestämma hur innehållet i layouten ska hålla sig till varandra.
+Längre ner kan man se tre olika taggar med olika definition som EditText för att kunna få
+resultatet enligt figur 1 och sedan har vi ImageView och Button där dessa två taggar kommer att illustrera en bild och en knapp enligt figur 2.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@color/colorAccent"
+        android:text="FC Barcelona" />
+
+        <EditText
+                android:id="@+id/myNewEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Favorit lag" />
+
+        <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="173dp"
+                        android:layout_height="247dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="40dp"
+                        app:srcCompat="@drawable/figur1" />
+
+        <Button
+                 android:id="@+id/button"
+                 android:layout_width="330dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="30dp"
+                 android:layout_marginTop="40dp"
+                 android:background="@color/colorAccent"
+                 android:text="Hejaaaaa!" />
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](Figur1.png)
+![](Figur2.png)
 
 Läs gärna:
 
